@@ -12,9 +12,10 @@
             android:layout_height="413dp" tools:srcCompat="@tools:sample/avatars[9]"
             android:id="@+id/imageView"/>
     <TextView
-            android:text="Image List"
+            android:text="수족관정인, 한강정인, 다낭정인"
             android:layout_width="match_parent"
-            android:layout_height="54dp" android:id="@+id/textView"
+            android:layout_height="54dp"
+            android:id="@+id/textView"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
     <EditText
             android:layout_width="match_parent"
@@ -27,6 +28,9 @@
     <Button
             android:text="확인"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" android:id="@+id/button"
+            android:layout_height="wrap_content"
+            android:id="@+id/button"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+
 </LinearLayout>
