@@ -1,8 +1,8 @@
 # Lookie_Android_Syudy
 
-## 과제 목록
+**과제 목록**
 
-Ch3. EditText, ImageView + (hashmap, Toast)
+* Ch3. EditText, ImageView + (hashmap, Toast)
 
 ImageView 1개, TextView 1개, EditText 1개, Button 1개를 배치
 
@@ -10,7 +10,7 @@ TextView에는 현재 가지고 있는 이미지들의 이름 목록이 보여진다. EditText에 이미지
 
 조건 : Hashmap 사용을 권장합니다.
 
-Ch4. RecyclerView, Dialog
+* Ch4. RecyclerView, Dialog
 
 class file 3개 (main, student, studentAdapter) XML file 3개 (main, studentview, dialogview)
 
