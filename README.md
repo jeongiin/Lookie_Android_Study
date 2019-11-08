@@ -1,2 +1,23 @@
-"# Lookie_Android_Syudy" 
-ì½”í‹€ë¦° ìŠ¤í„°ë””ì™€ ë³‘í–‰í•˜ê³  ìˆìŠµë‹ˆë‹¤.
+# Lookie_Android_Syudy
+
+## °úÁ¦ ¸ñ·Ï
+
+Ch3. EditText, ImageView + (hashmap, Toast)
+
+ImageView 1°³, TextView 1°³, EditText 1°³, Button 1°³¸¦ ¹èÄ¡
+
+TextView¿¡´Â ÇöÀç °¡Áö°í ÀÖ´Â ÀÌ¹ÌÁöµéÀÇ ÀÌ¸§ ¸ñ·ÏÀÌ º¸¿©Áø´Ù. EditText¿¡ ÀÌ¹ÌÁö ÀÌ¸§ ÀÔ·Â ÈÄ ButtonÀ» Å¬¸¯ ½Ã ImageView´Â ÇØ´çÇÏ´Â ÀÌ¹ÌÁö·Î ¹Ù²ï´Ù. ¸¸¾à Ã£´Â ÀÌ¹ÌÁö°¡ ¾øÀ» °æ¿ì Toast ¸Ş¼¼Áö·Î Ã£´Â °úÀÏÀÌ ¾øÀ½À» ¾Ë·ÁÁØ´Ù.
+
+Á¶°Ç : Hashmap »ç¿ëÀ» ±ÇÀåÇÕ´Ï´Ù.
+
+Ch4. RecyclerView, Dialog
+
+class file 3°³ (main, student, studentAdapter) XML file 3°³ (main, studentview, dialogview)
+
+class main - (-) student - ÇĞ»ıÀÇ Á¤º¸(ÀÌ¸§, ³ªÀÌ, Àü°ø)À» ´ãÀ» Å¬·¡½º studentAdapter - mainÀÇ RecyclerView¿¡ ÀåÂøÇÒ CustomAdapter
+
+XML main - Button 1°³, RecyclerView 1°³ studentview - TextView 3°³ (ÀÌ¸§, ³ªÀÌ, Àü°ø) dialogview - EditText 3°³ (ÀÌ¸§, ³ªÀÌ, Àü°ø)
+
+¼³¸í : mainÈ­¸éÀÇ Button Å¬¸¯ ½Ã Dialog º¸¿©Áø´Ù. Dialog³»¿¡¼­ 3°³ÀÇ °ª ÀÔ·ÂÈÄ Ãß°¡ ¹öÆ° Å¬¸¯ ½Ã mainÈ­¸é¿¡ ÇØ´ç ÇĞ»ıÁ¤º¸°¡ Ãß°¡µÇ°í Dialog°¡ Á¾·áµÈ´Ù. Ãë¼Ò ¹öÆ° Å¬¸¯ ½Ã ¾Æ¹«·± µ¿ÀÛ¾øÀÌ Dialog°¡ Á¾·áµÈ´Ù.
+
+Á¶°Ç : ÇĞ»ı Á¤º¸´Â Ç×»ó ¸®½ºÆ®ÀÇ °¡Àå À§¿¡ Ãß°¡µÈ´Ù. DialogÀÇ editText°ªµéÀÌ Ã¤¿öÁöÁö ¾ÊÀº °æ¿ì´Â °í·ÁÇÏÁö ¾Ê´Â´Ù. (¿¹¿ÜÃ³¸® ÇÊ¿ä¾øÀ½)
